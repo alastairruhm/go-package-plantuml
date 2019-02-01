@@ -1,13 +1,13 @@
 package main
 
 import (
-	"git.oschina.net/jscode/go-package-plantuml/codeanalysis"
-	log "github.com/Sirupsen/logrus"
 	"fmt"
+	log "github.com/Sirupsen/logrus"
+	"github.com/alastairruhm/go-package-plantuml/codeanalysis"
 	"github.com/jessevdk/go-flags"
 	"os"
-	"strings"
 	"path"
+	"strings"
 )
 
 func main() {

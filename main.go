@@ -64,7 +64,7 @@ func main() {
 
 	result := codeanalysis.AnalysisCode(config)
 
-	result.OutputToFile("/tmp/uml.txt")
+	result.OutputToFile(opts.OutputFile)
 
 }
 
